@@ -5,21 +5,16 @@
     font-size: 18px;
     line-height: 1.6em;
     font-weight: 900;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-style: italic;
     letter-spacing: 2px;
     word-spacing: 5px;
-
     font:normal 20px 'Roboto', sans-serif;
 }
 body{
     color: #0f141e;
     background: #f1f1f1;
 }
-h1{
-    color:blueviolet;
-}
-
 
 .card{
     margin-bottom: 20px;
@@ -32,58 +27,59 @@ h1{
 
 .info{
     margin-bottom: 20px;
+    display: flex;
 }
 .info-text p{
     font-style:italic;
     font-weight: bold;
-    color:#86898f;
-    margin:0;
+    color:#5b5b5d;
+    margin:0;  
 }
 
-.info-text h4{
+.info-text{
+    margin-left:40px;
+}
+
+.info-text h1{
     margin-bottom: 10px;
 }
 .card h2{
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.bg-yellow{
-    background:#fff9dc;
-}
-.bg-red{
-    background:#ffe5e5;
-}
-.bg-green{
-    background:#e5ffe7;
 
-}
 
 .card p{
-    font-size: 30px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    color:#86898f;
 }
-.css{
-    background: blue;
+
+.jas:hover {
+    background:black;
+    color:#eee;
+}
+.maliya:hover {
+    background:rgb(194, 43, 214);
     color:white;
 }
 
-.html{
-    background: orange;
-    color:white;
+.uzb:hover{
+    background: rgb(224, 221, 12);
+    color: white;
 }
-
 #header, .card{
     margin-bottom: 10px;
 }
-/* rgb 00-ff */
-.color-1{
+/* .color-1{
     color: crimson;
 }
 .color-2{
     color:indigo;
-}
-.color-3{
-    color:#000;
-}
+} */
+
 .color-4{
     color: rgb(253, 240, 0);
     opacity:0.2;
@@ -124,23 +120,26 @@ h1{
     box-shadow: 4px 4px 14px rgba(0,0,0,.25);
 }
 
-
-   
 a:visited{
-    color:red;
+    color:rgb(66, 112, 76);
 }
 
 a:active{
     color:blue;
 }
-/* psevdoselector naved */
-a:hover{
-    color:orange;
+.navbar ul li a{
+    color:rgb(66, 112, 76);
+}
+.navbar ul li a:hover{
+    color:rgb(30, 215, 16);
     font-size: 2rem;
 }
-.css:hover{
-    background: blueviolet;
+/* psevdoselector naved */
+a:hover{
+    color:rgb(30, 215, 16);
+    font-size: 2rem;
 }
+
 a{
     color:#000;
     text-decoration: none;
@@ -148,9 +147,7 @@ a{
 }
  a:hover{
     /* text-decoration: underline; */
- }
- a:active{
-    color:grey;
+    
  }
 .btn{
     background:#111;
@@ -163,36 +160,22 @@ a{
 }
 .btn:hover{
     opacity: .8;
-    color:orange;
+    color:rgb(94, 255, 0);
 }
 .container{
     /* align by center */
     margin:auto;
     margin-top: 30px;
 }
-.box{
-    background: darkorchid;
-    color:#fff;
+
     /* top-bottom & left-right */
-    padding:15px 40px;
+    /* padding:15px 40px; */
     /* top right bottom left */
-    padding:10px 15px 40px 30px;
-    border:4px solid red;
-    margin: 10px;
-}
+    /* padding:10px 15px 40px 30px; */
 
-.blocks{
-    width:100%;
-}
-.blocks .block{
-    width:25%;
-    background:#000;
-    height:50px;
-    float:left;
-    border:4px solid green;
-    box-sizing: border-box;
-}
 
+/* box-sizing: border-box; */
+/* граница включается в элемент */
 
 .list{
     margin:0;
@@ -222,12 +205,12 @@ a{
     background: #eee;
 }
 
-.table td:nth-child(2), .table td:nth-child(4){
-    background: #fffeee;
-}
+/* .table td:nth-child(2), .table td:nth-child(4){ */
+    /* background: #fffeee; */
+/* } */
 
 .navbar{
-    background: lightcoral;
+    background: rgb(203, 206, 202);
     margin-bottom:10px;
 }
 
@@ -245,16 +228,16 @@ a{
 }
 
 .navbar ul li:hover{
-    background:#ea6767;
+    background:#f9fbf9;
 }
-
 .navbar ul li:last-child{
     margin-right:0;
 }
 
+
 .inline li{
      /* display: flex; в одну линию*/
-     display: inline;
+     /* display: inline; */
 }
 
 .boxe{
@@ -264,7 +247,9 @@ a{
     display: inline-block;
     box-sizing: border-box;
 }
-
+.gretta ol li{
+    color:grey;
+}
 .shrek{
     width: 200px;
     display: block;
@@ -336,7 +321,7 @@ a{
     /* absolute не учитывается род элементами */
     width:50px;
     height:50px;
-    background:coral;
+    background:rgb(41, 177, 240);
 }
 
 .navbar{
