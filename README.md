@@ -1,4 +1,4 @@
 # My creation
-## Hello everyonje thios is my site
+## Hello everyo this is my draft site
 
-[Aibyn Sadi](https://zhaik007.github.io/Spaidama/)
+[Aibyn Sadi topchik](https://zhaik007.github.io/Spaidama/)
