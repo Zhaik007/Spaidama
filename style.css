@@ -65,6 +65,9 @@ body{
     background:rgb(194, 43, 214);
     color:white;
 }
+.maliya:hover p{
+    color:#eee;  
+}
 
 .uzb:hover{
     background: rgb(224, 221, 12);
@@ -73,12 +76,7 @@ body{
 #header, .card{
     margin-bottom: 10px;
 }
-/* .color-1{
-    color: crimson;
-}
-.color-2{
-    color:indigo;
-} */
+/* color: crimson; indigo; */
 
 .color-4{
     color: rgb(253, 240, 0);
