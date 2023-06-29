@@ -17,18 +17,134 @@ div block
       .header{
          border-bottom: 2px solid gray
       }
+      .container{
+         max-width: 750px;
+         padding-top: 20px;
+         margin: auto;
+      }
+
+      .boxic{
+         padding: 20px;
+         background: #eee;
+         font-size: 2rem;
+      }
+
+      @media(max-width:500px){
+         .boxic{
+            font-size: 1.5rem;
+            padding: 10px;
+            text-align: center;
+         }
+      }
     </style>
+    <link rel="stylesheet" href="style.css">
  </head>
  <body>
-   <aside></aside>
+   <nav class="navbar" id="header">
+      <ul>
+         <li><a href="#">Item 1</a></li>
+         <li><a href="#">Item 2</a></li>
+         <li><a href="#">Item 3</a></li>
+         <li><a href="#">Item 4</a></li>
+         <li><a href="#">Item 5</a></li>
+      </ul>
+   </nav>
+   <div class="container">
+   <!-- <header> </header> -->
+   <!-- <aside></aside> -->
    <section>
       <article>
-         <hr color = "green" size="3" noshade width="3000" >
-    <p style="border:2px solid green;">Je suis kazakh. Io ha 17 anni.
-      Io sono Zhasulan. I am student of the governmental school
-     <strong><br> 11th grade  <br>ICT and Physics are my</strong>
-      main <em>profile subjects!</em> 
-   </p>
+
+         <div class="boxic">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime dicta quibusdam, rem quidem culpa est temporibus nesciunt impedit tempora corrupti distinctio dolorum, numquam beatae autem consectetur consequuntur illo amet.
+               AAAAAAAASEMA
+            </p>
+         </div>
+         <div class="card jas">
+            <h1> Jas</h1>
+            <hr color = "green" size="3" noshade width="100%" >
+            <p style="border:2px solid green;">Je suis kazakh. Io ha 17 anni.
+               Io sono Zhasulan. I am student of the governmental school
+            <strong><br> 11th grade  <br>ICT and Physics are my</strong>
+               main <em>profile subjects!</em> 
+            </p>
+         </div>
+         
+         <div class="card html">
+            <hr color = "orange" size="3" noshade width="100%" >
+            <p style="border:2px solid rgb(128, 62, 0);">Je suis kazakh. Io ha 17 anni.
+               Io sono Zhasulan. I am student of the governmental school
+            <strong><br> 11th grade  <br>ICT and Physics are my</strong>
+               main <em>profile subjects!</em> 
+            </p>
+         </div>
+         <div class="card css bg-yellow">
+            <hr color = "blue" size="3" noshade width="100%" >
+            <p style="border:2px solid rgb(12, 166, 223);">Je suis kazakh. Io ha 17 anni.
+               Io sono Zhasulan. I am student of the governmental school
+            <strong><br> 11th grade  <br>ICT and Physics are my</strong>
+               main <em>profile subjects!</em> 
+            </p>
+         </div>
+         <div class="card bg-red">
+            <h2>
+               Colors
+            </h2>
+            <h3 class="color-1">Color 1</h3>
+            <h3 class="color-2">Color 2</h3>
+            <h3 class="color-3">Color 3</h3>
+            <h3 class="color-4">Color 4</h3>
+            <h3 class="color-5">Color 5</h3>
+         </div>
+         <div class="card bg-green">
+            <h2>Borders</h2>
+            <p class="border-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error in cum, corporis, optio eligendi harum voluptates labore quod dolor magni magnam est quasi officia. Deleniti doloremque suscipit unde officia aut.</p>
+            <p class="border-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quas minus aperiam quaerat ut nam numquam, autem, error nostrum consequatur velit eum? Rem quos voluptas quas? Ex similique rerum corporis. </p>
+            <p class="border-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quas minus aperiam quaerat ut nam numquam, autem, error nostrum consequatur velit eum? Rem quos voluptas quas? Ex similique rerum corporis. </p>
+         </div>
+         <div class="container"> 
+         <div class="box">
+            <h2>Box Model</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates excepturi nesciunt earum unde velit. Iusto ratione sunt odit nesciunt aperiam ab nostrum sequi assumenda qui mollitia, voluptatibus hic minima corrupti?</p>
+         </div>
+
+         <div class="box">
+            <h2>Box Model</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates excepturi nesciunt earum unde velit. Iusto ratione sunt odit nesciunt aperiam ab nostrum sequi assumenda qui mollitia, voluptatibus hic minima corrupti?</p>
+         </div>
+         <div class="blocks">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+         </div>
+         </div>
+
+         <div class="card">
+            <h2>Positions</h2>
+            <div class="playground">
+               <div class="pos-box"></div>
+            </div>
+         </div>
+         <div class="card"> 
+            <h2>Display</h2>
+            <ul class="inline">
+               <li>Item 1</li>
+               <li>Item 2</li>
+               <li>Item 3</li>
+               <li>Item 4</li>
+               <li>Item 5</li>
+            </ul>
+         </div>
+         <div class="boxe">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, adipisci!
+         </div>
+         <div class="boxe">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, adipisci!
+         </div>
+         <div class="boxe">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, adipisci!
+         </div>
 
       </article>
    </section>
@@ -64,9 +180,80 @@ div block
    |
    <a href="https://google.com" target="_blank">Google in new tabe</a>
 
+   <div class="info"> 
+      <img src="img/ярфы.jpg" alt="Kartinka" width="150" class="avatar">
+      <div class = "infotext"></div>
+   </div>
+   <div class="card">
+      <h2> Links & buttons</h2>
+      <p>
+         <a href="#" class="btn">Это очень важная ссылка</a>
+      </p>
+      <p>
+         <button class="btn">
+               fg
+         </button>
+      </p>
+   </div>
+   <div class="circlee">
 
-   <img src="img/zcxv" alt="Kartinka" width="150">
+   </div>
+   <div class="card">
+      <h2>Lists & tables</h2>
+      <ul class="list"> 
+         <li> lorem</li>
+         <li> lorem</li>
+         <li> lorem</li>
+         <li> lorem</li>
+         <li> lorem</li>
 
+      </ul> 
+       <!--(tr>(td{$})*5)*6  -->
+      <table class="table">
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+         </tr>
+      </table>
+   </div>
    <ul>
       <li>
          kfd
@@ -102,44 +289,47 @@ div block
       
    </table>
 
-   <form action="">
-      <div>
-         <label for="text2">text</label>
-         <input type="text" id="text2" value="fnjfgn" readonly>
+   <form action="/" class="form">
+      <h2> Asrik</h2>
+      <div class="form-row">
+         <div class="form-group"> 
+            <label for="text2">text</label>
+            <input type="text" id="text2" value="fnjfgn" readonly>
+         </div>
+         <div class="form-group">
+            <label for="email">email</label> <!-- sviazka-->
+            <input type="email" id="email" placeholder="Jdjdnfddgj@gmsil.com">
+         </div>
+         <div class="form-group">
+            <label for="password">password</label>
+            <input type="password" id="password">
+         </div>
+         <!-- <div class="form-group"> -->
+            <!-- <label for="range">range</label> -->
+            <!-- <input type="range" id="range" min="0" max="10" step="1"> -->
+         <!-- </div> -->
+         <!-- <div class="form-group"> -->
+            <!-- <label for="date">date</label> -->
+            <!-- <input type="date" id="date"> -->
+         <!-- </div> -->
+         <!-- <div class="form-group"> -->
+            <!-- <label for="color">color</label> -->
+            <!-- <input type="color" id="color"> -->
+         <!-- </div> -->
       </div>
-      <div>
-         <label for="email">email</label> <!-- sviazka-->
-         <input type="email" id="email" placeholder="Jdjdnfddgj@gmsil.com">
-      </div>
-      <div>
-         <label for="password">password</label>
-         <input type="password" id="password">
-      </div>
-      <div>
-         <label for="range">range</label>
-         <input type="range" id="range" min="0" max="10" step="1">
-      </div>
-      <div>
-         <label for="date">date</label>
-         <input type="date" id="date">
-      </div>
-      <div>
-         <label for="color">color</label>
-         <input type="color" id="color">
-      </div>
-      <div>
+      <div class="form-group"> 
          <label for="message">Message</label>
          <textarea id="message" cols="25" rows="10"></textarea>      
       </div>
-      <div>
-         <label for="sex">Gender</label>
-         <select id="sex">
-            <option value="male"> male</option>
-            <option value="male" selected>  male</option>
-            <option value="male"> male</option>
-            <option value="male"> male</option>
-         </select>      
-      </div>
+      <!-- <div class="form-group"> -->
+        <!-- <label for="sex">Gender</label> -->
+         <!-- <select id="sex"> -->
+            <!-- <option value="male"> male</option> -->
+            <!-- <option value="male" selected>  male</option> -->
+            <!-- <option value="male"> male</option> -->
+            <!-- <option value="male"> male</option> -->
+         <!-- </select>       -->
+      <!-- </div> -->
 
       <div>
          <label> Kol rab</label>
@@ -160,5 +350,6 @@ div block
       <button type="submit"></button>
       <input type="submit" value="Otpravit">
    </form>
+</div>
  </body>
  </html>
